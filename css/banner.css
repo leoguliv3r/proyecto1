@@ -1,15 +1,16 @@
-#banner {
+.banner {
     margin-top: 50px;
     position: relative;
 }
 
-#banner img{
+.banner img{
     box-sizing: 720px;
     width: 100%;
     height: 100%;
 }
 
-#banner .contenedor {
+.banner .contenedor {
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,12 +18,13 @@
     color: rgb(255, 255, 255);
 }
 
-#banner h2{
+.banner h2{
     font-size: 28px;
 }
 
-#banner a{
-    display: block;
+.banner a{
+    text-align: center;
+    display: inline-block;
     width: 100px;
     color: white;
     text-decoration: none;
@@ -31,6 +33,13 @@
     border: 3px solid #fff;
 }
 
-#banner a:hover{
+.banner a:hover{
     background: rgba(51,51,51, 0.5)
 }
+
+.redes-ban {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+    
