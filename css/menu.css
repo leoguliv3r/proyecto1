@@ -4,14 +4,17 @@
 
 header label {
     float: right;
-    font-size: 28px;
-    margin: 6px 0;
+    font-size: 35px;
+    margin: 20px 0;
     cursor: pointer;
+}
+header .contenedor {
+    display: table;
 }
 
 .menu  {
     position: absolute;
-    top: 50px;
+    top: 75px;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -29,7 +32,9 @@ header label {
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-
+.menu a:hover{
+    background: rgb(255,255,255, 0.3);
+}
 #menu-bar:checked ~ .menu {
     transform: translateX(0%);
 }
