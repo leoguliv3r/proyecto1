@@ -1,7 +1,11 @@
 #menu-bar   {
     display: none;
+
 }
 
+.icon-menu {
+    border: white 1px solid;
+}
 header label {
     float: right;
     font-size: 35px;
