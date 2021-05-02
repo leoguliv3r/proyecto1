@@ -20,12 +20,13 @@
 
 .banner h2{
     font-size: 28px;
+    
 }
 
 .banner .contenedor a{
     text-align: center;
     display: inline-block;
-    width: 100px;
+    width: 150px;
     color: white;
     text-decoration: none;
     padding: 10px;
