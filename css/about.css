@@ -1,0 +1,22 @@
+.about {
+    background: rgb(247, 247, 247);
+}
+.about-us h3{
+    color: #d0a16c;
+}
+
+.about-us h2{
+    color: #263a4e;
+    font-size: 30px;
+}
+
+.about-us a {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    color: #263a54;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #cea06c;
+}    
