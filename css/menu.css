@@ -8,12 +8,10 @@
 }
 header label {
     float: right;
-    font-size: 35px;
-    margin: 20px 0;
+    font-size: 30px;
+    margin: 30px 15px;
     cursor: pointer;
-}
-header .contenedor {
-    display: table;
+    
 }
 
 .menu  {
@@ -26,6 +24,7 @@ header .contenedor {
     transition: all 0.5s;
     transform: translateX(-100%);
     text-decoration: none;
+    list-style:none
 }
 
 .menu a{
