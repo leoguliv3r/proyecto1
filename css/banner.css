@@ -49,6 +49,11 @@
     color: white;
     font-size: 20px;
   }
+  
+main img {
+    width: auto;
+    height: auto;
+}
 
 .redes-ban A:link {text-decoration: none;
 text-align: center;

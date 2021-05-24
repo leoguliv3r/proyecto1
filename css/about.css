@@ -1,22 +1,43 @@
 .about {
     background: rgb(247, 247, 247);
+    padding-left: 20px;
+    padding-bottom: 80px;
+    
 }
 .about-us h3{
     color: #d0a16c;
+    margin-top: 20px;
 }
 
 .about-us h2{
     color: #263a4e;
     font-size: 30px;
+    margin-top: 20px;
+}
+
+.about-us h4 {
+    margin-top: 25px;
+    font-weight: normal;
+    color: rgba(38, 58, 78, 0.6);
+    line-height: 30px;
+    
 }
 
 .about-us a {
     text-align: center;
+    font-weight: bolder;
     display: inline-block;
     width: 150px;
     color: #263a54;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px 10px;
     margin-top: 10px;
     border: 2px solid #cea06c;
 }    
+
+.about-us img {
+    width: 95%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    
+}
