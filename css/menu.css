@@ -60,16 +60,18 @@ ul, ol {
     display: block;
 }
 
-@media (min-width:768px) {
+@media (min-width:600px) {
     .menu{
-        position: absolute;
+        position: static;
         width: auto;
         height: auto;
         transform: translateX(0%);
-        top: 15px;
-        right: 50px;
+        margin-top: 30px;
+        margin-right: 20%;
         display: flex;
+        float: right;
         background: transparent;
+        
     }
 
     .menu a {

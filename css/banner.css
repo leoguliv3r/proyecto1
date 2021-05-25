@@ -56,7 +56,7 @@ main img {
 .redes-ban a{
     color: white;
 }
-@media (min-width:500px) {
+@media (min-width:600px) {
     .banner {
         position: relative;
         padding: 0px;
@@ -74,15 +74,72 @@ main img {
         background: rgba(55, 47, 85, 0.7);
     }
 
+    .arclabs {
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        display: inline-block;
+        opacity: 0.1;
+        margin-top: 14%;
+        margin-left: -1%;
+        
+    }
+    
+    .arclabs IMG{
+        width: 600px;
+        height: 100px;
+
+    }
+}
+
+.banner .content{
+    position: absolute;
+    margin-left: -2%;
+    text-align: left;
+    margin-top: 8%;
     
 }
 
+.content h2{
+    font-size: 100px;
+}
 
-@media (max-width:500px) {
+.redes-ban {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: -38%;
+    color: white;
+    font-size: 15px;
+}
+
+.redes-ban a {
+    margin: 10px;
+}
+
+@media (max-width:600px) {
   .banner {
     background-image: none;
     background-color: rgba(55,47,85, 0.7);
         
     }
     
+    .banner .content {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        color: rgb(255, 255, 255);
+        line-height: 50px;
+        margin-top: 50px;
+    }
+    .banner h2{
+        font-size: 45px;
+        margin-bottom: 20px;
+        line-height: normal;
+    }
 }
