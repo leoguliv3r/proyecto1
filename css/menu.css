@@ -36,6 +36,7 @@ ul, ol {
 
 .menu a{
     display: block;
+    text-align: start;
     color: #fff;
     height: 50px;
     text-decoration: none;
@@ -55,18 +56,18 @@ ul, ol {
     min-width: 140px;
 }
 
-.menu li:hover >ul {
+.menu li:hover > ul {
     display: block;
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
     .menu{
         position: absolute;
         width: auto;
         height: auto;
         transform: translateX(0%);
         top: 15px;
-        left: 700px;
+        right: 50px;
         display: flex;
         background: transparent;
     }
