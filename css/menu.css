@@ -61,23 +61,36 @@ ul, ol {
 
 @media (min-width:1024px) {
     .menu{
-        position: static;
+        position: absolute;
         width: auto;
         height: auto;
         transform: translateX(0%);
-        float: right;
+        top: 15px;
+        left: 700px;
         display: flex;
+        background: transparent;
     }
 
     .menu a {
         border: none;
+        font-size: 13px;
+        text-align: center;
     }
 
     header label {
         display: none;
     }
-    
-    header {
-        background: none;
+ 
+    .fondo{
+        display: none;
+        width: auto;
+    }
+    main picture img {
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .menu a:hover{
+        background: rgb(255,255,255, 0.0);
+        color: #cea06c;
     }
 }
