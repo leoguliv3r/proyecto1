@@ -22,7 +22,6 @@ footer .contenedor {
     padding: 50px 0;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
     flex-direction: row;
     
     
@@ -54,25 +53,26 @@ footer .contenedor ul{
 }
 
 .tec{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
 
 }
 
-.tec label input {
+.tec input {
     background: rgb(51, 79, 108);
-    display: block;    
+    display: inline-block;    
     border: 0;
     padding: 0;
-    outline: none;
-    width: 200px;
+    
+    width: 190px;
     border-radius: 0px;
     height: 30px;
+    margin: 0;
     
 }
 .tec button{
-    background:white
-    display: block;    
+    background:white;
+      
     border: 0;
     padding: 0;
     outline: none;
@@ -80,16 +80,47 @@ footer .contenedor ul{
     border-radius: 0px;
     height: 30px;
 }
-label li{
-    background-color: transparent;
-    padding: 10px 40px;
+
+
+.footer .contenedor{
+    justify-items: right;
+    display: block;
+    text-align: end;
 }
-.foot5{
-    margin: 0 20px;
+.footer .redes a{
     
+    color: white;
+    background: rgb(51, 79, 108);
+    padding: 10px;
+    
+
+}
+.copy{
+    margin-bottom: 30px;
+    text-align: start;
+}
+.footer .copy a{
+    color: #cea06c;
 }
 @media (max-width:959px){
     #logos .log{
         display: none;
+    }
+    
+    .footer .contenedor{
+        font-size: 15px;
+        padding-left: 10px;
+        text-align: start;
+    }
+
+    footer .contenedor{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .foot5{
+        flex-direction: row;
+        box-sizing: content-box;
     }
 }
