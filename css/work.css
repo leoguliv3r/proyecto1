@@ -1,48 +1,43 @@
-.work{
-    margin-top: 80px;
-    width: 100%;
-    text-align: center;
+#work{
+    margin-top: 10%;
     
 }
-.contenedor h3{
+#work .contenedor h3{
     color: #d0a16c;
     text-align: center;
     margin-bottom: 15px;
 }
-.contenedor h2{
+#work .contenedor h2{
     font-size: 40px;
     text-align: center;
     color: #263a4e;
     margin-bottom: 80px;
+    
 }
 
-#work{
+#work-link{
     text-align: center;
+    
 }
 
-#work li{
+#work-link li{
     display: inline;
     line-height: 30px;
-    
+    text-decoration: none;
 }
 
 #work li a{
 font-size: 15px;
 color: #263a4e;
 margin-left: 30px;
-
+text-decoration: none;
 }
 
-#work li:hover {
+#work li a:hover {
     color: #d0a16c;
 }
 
-.work1, .work2, .work3, .work4{
-    margin-top: 60px;
-    position: relative;
-    display: inline-block;
-    
-}
+
 
 
 .examples img {
@@ -55,7 +50,7 @@ margin-left: 30px;
     left: 50%;
     transform: translate(-40%, -82%);
     background-color: white;
-    width: 300px;
+    width: 290px;
     padding: 30px;
 }
 
@@ -85,20 +80,113 @@ margin-left: 30px;
     left: 50%;
     transform: translate(-40%, -82%);
     background-color: white;
-    width: 300px;
+    width: 290px;
     padding: 30px;
 }
 .examples h5{
     text-align: start;
 }
 
-.Proyect img {
-    width: 100%;
-    object-fit: contain;
-}
-
 .examples img {
     margin-left: 10px;
     width: 95%;
+    max-width: 100%;
 }
 
+.examples img{
+    object-fit: cover;
+}
+
+.Proyect{
+margin: 0;    
+
+height: 350px;
+background-image: url(/img/ct1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+object-fit: cover;
+
+}
+
+.Proyect:before{
+content: "";
+width: 100%;
+height: 350px;
+position: absolute; 
+background:rgba(18, 12, 49, 0.637);
+}    
+
+.Proyect p {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40%;
+    margin-left: 10%;
+    
+}
+
+.work1, .work2, .work3, .work4{
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+}
+@media (min-width:950px) {
+        
+    
+    
+    .work4{
+        text-align: start;
+        
+    }
+
+    .box2{
+        margin-top: 10px;
+        box-sizing: content-box;
+    }
+    
+    
+
+    .work3 img{
+        width: 723px;
+        height: 474px;
+     }
+
+    
+    .text2{
+        position: absolute;
+        margin-top: 20px;
+        top: 10%;
+        left: 70%;
+        transform: translate(-35%, -60%);
+        background-color: white;
+        width: 300px;
+        padding: 30px;
+    }
+    .text3{
+        position: absolute;
+        margin-top: 20px;
+        top: 10%;
+        left: 73%;
+        transform: translate(-35%, -60%);
+        background-color: white;
+        width: 300px;
+        padding: 30px;
+    }
+    .Proyect p {
+    position: absolute;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 3%;
+    margin-left: 42%;
+}
+
+.work4{
+    float: left;
+}
+
+
+}

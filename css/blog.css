@@ -1,25 +1,25 @@
-.blog .contenedor {
+#blog .contenedor {
     display: flex;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.blog article {
-    margin: 10px;
+#blog article {
+    margin-top: 10px;
     padding: 20px;
     width:280px;
 
 }
 
-.blog img {
+#blog img {
    width: 100%;
    margin: auto;
    max-width: 150px;
    border: #263a4e 1px solid;
        
 }
-.blog h4, h5 {
+#blog h4, h5 {
     text-align: center;
     padding: 10px 0px 10px 0px;
 }

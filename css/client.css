@@ -1,0 +1,78 @@
+#test{
+    background: rgb(247, 247, 247);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.descrip{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.descrip h4{
+    color: #cea06c;
+}
+.clients{
+    display:flex;
+    
+}
+
+.client1,
+.client2,
+.client3{
+    padding: 10px 20px;
+    background: white;
+    display: flex;
+    text-align: start;
+    margin: 50px 10px;
+}
+#logos .contenedor {
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+flex-direction: row;
+    
+}
+.clients img{
+    height: 70px;
+}
+.clients h4{
+    font-size: 15px;
+    padding: 0 15px;
+    line-height: 25px;
+}
+
+.clients h3{
+    font-size: 20px;
+    padding: 15px 15px;
+    line-height: 25px;
+}
+.clients h6{
+    font-size: 15px;
+    padding: 0 15px;
+    line-height: 25px;
+}
+.div1{
+    flex-direction: column;
+}
+
+article{
+
+    margin: 0 5px;
+
+}
+
+@media (max-width:959px){
+
+.client2,
+.client3{
+    display: none;
+}    
+.client1{
+    margin: 20px 0;
+    width: 100%;
+}
+
+   
+}

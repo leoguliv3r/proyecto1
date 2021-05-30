@@ -1,0 +1,95 @@
+
+#logos img{
+    padding: 50px 20px;
+    background: white;
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: .5;
+    color: white;
+
+}
+footer{
+    background-color: rgb(14, 20, 36);
+    
+}
+footer .contenedor {
+    
+    color: white;
+    display: flex;
+    padding: 50px 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+footer .contenedor h6{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+footer .contenedor li{
+color: grey;
+line-height: 40px;
+
+}
+
+footer .contenedor li a{
+    color: gray;
+text-decoration: none;    
+}
+
+footer .contenedor li a:hover{
+    color: honeydew;
+}
+
+footer .contenedor ul{
+    margin: 0 30px;
+    box-sizing: border-box;
+}
+
+.tec{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tec label input {
+    background: rgb(51, 79, 108);
+    display: block;    
+    border: 0;
+    padding: 0;
+    outline: none;
+    width: 200px;
+    border-radius: 0px;
+    height: 30px;
+    
+}
+.tec button{
+    background:white
+    display: block;    
+    border: 0;
+    padding: 0;
+    outline: none;
+    width: 100px;
+    border-radius: 0px;
+    height: 30px;
+}
+label li{
+    background-color: transparent;
+    padding: 10px 40px;
+}
+.foot5{
+    margin: 0 20px;
+    
+}
+@media (max-width:959px){
+    #logos .log{
+        display: none;
+    }
+}

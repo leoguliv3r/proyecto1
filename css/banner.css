@@ -1,27 +1,34 @@
-.banner {
+#banner {
+    margin-top: 50px;
     position: relative;
-    width: auto;
-    height: 900px;
-    background-image: url("../img/header-bg.jpg");
-    background-repeat: no-repeat;
-    top: 0;
-    left: 0;
 }
 
-.banner .content {
-    text-align: center;
+#banner{
+    margin: 0;
+min-height: 100vh;
+background-image: url(/img/header-bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+}
+#banner:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+   position: absolute;
+    background:rgba(18, 12, 49, 0.637);
+}
+
+#banner .contenedor {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: rgb(255, 255, 255);
-    line-height: 50px;
+    color: white;
 }
 
-.banner h2{
-    font-size: 45px;
-    margin-bottom: 20px;
-    line-height: normal;
+.redes-ban a{
+    color: white;
 }
 
 .content a{
@@ -29,49 +36,60 @@
     display: inline-block;
     color: white;
     text-decoration: none;
-    padding: 0px 50px 0px 50px;
-    border: 3px solid #fff;
+    padding: 15px 35px;
+    border: 1px solid #fff;
     
 }
 
-.banner .content a:hover{
+.content a:hover{
     background: rgba(51,51,51, 0.5)
 }
 
-.redes-ban {
-    position: absolute;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    top: 90%;
-    left: 40%;
-    color: white;
-    font-size: 20px;
-  }
-  
-main img {
-    width: auto;
-    height: auto;
-}
-.redes-ban a{
-    color: white;
-}
-@media (min-width:600px) {
-    .banner {
-        position: relative;
-        padding: 0px;
-        margin-top: 0px;
-        width: auto;        
-        background-size:cover;
+@media (max-width:950px){
+    #banner:before{
+        content: "";
+        width: 100%;
+        min-height: 100vh;
+       position: absolute;
+        background:rgba(105, 108, 133);
     }
-    .banner::before {
+    .redes-ban {
+        
+        margin-top: 50%;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    
+    #banner h3{
+        font-size: 15px;
+    }
+
+    .arclabs{
+        display: none;
+    }
+    
+    #banner .contenedor {
+        margin-top: 20%;
+    }
+
+
+}
+
+
+
+@media (min-width:959px){
+
+    #banner .redes-ban{
         position: absolute;
-        content: '';
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(55, 47, 85, 0.7);
+        margin-top: 20%;    
+        margin-left: -30%;
+        
+    }
+
+    .redes-ban a{
+        margin: 5px;
     }
 
     .arclabs {
@@ -81,8 +99,6 @@ main img {
         transform: rotate(-90deg);
         display: inline-block;
         opacity: 0.1;
-        margin-top: 14%;
-        margin-left: -1%;
         
     }
     
@@ -91,55 +107,10 @@ main img {
         height: 100px;
 
     }
-}
-
-.banner .content{
-    position: absolute;
-    margin-left: -2%;
-    text-align: left;
-    margin-top: 8%;
-    
-}
-
-.content h2{
-    font-size: 100px;
-}
-
-.redes-ban {
-    position: absolute;
-    display: inline-block;
-    text-decoration: none;
-    text-align: left;
-    margin-top: 50px;
-    margin-left: -38%;
-    color: white;
-    font-size: 15px;
-}
-
-.redes-ban a {
-    margin: 10px;
-}
-
-@media (max-width:600px) {
-  .banner {
-    background-image: none;
-    background-color: rgba(55,47,85, 0.7);
-        
-    }
-    
-    .banner .content {
-        text-align: center;
+    #banner .contenedor img {
         position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        color: rgb(255, 255, 255);
-        line-height: 50px;
-        margin-top: 50px;
-    }
-    .banner h2{
-        font-size: 45px;
-        margin-bottom: 20px;
-        line-height: normal;
+        top: 50%;
+        transform: translateX(-50%) translateY(-160%);
+        color: white;
     }
 }
