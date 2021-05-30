@@ -97,11 +97,11 @@ text-decoration: none;
     object-fit: cover;
 }
 
-.Proyect img{
+.Proyect{
 margin: 0;    
 
 height: 350px;
-width: 100%;
+background-image: url(/img/ct1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position:center;

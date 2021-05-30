@@ -6,7 +6,7 @@
 #banner{
     margin: 0;
 min-height: 100vh;
-width: 100%;
+background-image: url(/img/header-bg.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position:center;
@@ -14,7 +14,7 @@ background-position:center;
 #banner:before{
     content: "";
     width: 100%;
-    min-height: 96vh;
+    min-height: 100vh;
    position: absolute;
     background:rgba(18, 12, 49, 0.637);
 }
