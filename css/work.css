@@ -97,11 +97,11 @@ text-decoration: none;
     object-fit: cover;
 }
 
-.Proyect{
+.Proyect img{
 margin: 0;    
 
 height: 350px;
-background-image: url(img/ct1.jpg);
+width: 100%;
 background-repeat: no-repeat;
 background-size: cover;
 background-position:center;
@@ -184,9 +184,7 @@ background:rgba(18, 12, 49, 0.637);
     margin-left: 42%;
 }
 
-.work4{
-    float: left;
-}
+
 
 
 }
