@@ -7,9 +7,6 @@
 }
 
 
-.descrip{
-    margin-top: 60px;
-}
 
 .descrip h3{
     color: #d0a16c;
@@ -55,8 +52,9 @@
     
     #about .descrip{
         margin-left: 50px;
-        justify-content: space-around;
+        
     }
+    
 }
 
 @media (max-width:950px){
